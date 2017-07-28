@@ -54,7 +54,7 @@ I installed both Python 2 and 3. I first learned python while completing a MOOC 
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-If you are using a Windows machine and have Anaconda installed, you can type in 'python --version' in your Anaconda Prompt to check the version of Python installed.
+If you are using a Windows machine and have Anaconda installed, you can type in *python --version* in your Anaconda Prompt to check the version of Python installed.
 
  
 
