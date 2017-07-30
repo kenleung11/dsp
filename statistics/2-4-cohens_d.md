@@ -3,7 +3,7 @@
 Using the variable _totalwgt_lb_, Cohen's _d_ was evaluated to be -0.089, and can be considered a 'small' effect size. Comparing this to Cohen's _d_ for pregnancy length, the effect size is around doubled, however both of these differences are trivial.  
 
 Code below:  
-```
+```python
 import nsfg  
 import numpy as np  
 import pandas as pd  
