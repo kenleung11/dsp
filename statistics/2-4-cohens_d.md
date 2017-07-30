@@ -3,7 +3,7 @@
 Using the variable _totalwgt_lb_, Cohen's _d_ was evaluated to be -0.089, and can be considered a 'small' effect size. Comparing this to Cohen's _d_ for pregnancy length, the effect size is around doubled, however both of these differences are trivial.  
 
 Code below:  
-
+```
 import nsfg  
 import numpy as np  
 import pandas as pd  
@@ -55,3 +55,4 @@ print('Variance of weight of all other babies: ', others.totalwgt_lb.var())
 print('Standard Deviation of the weight of first babies: ', firsts.totalwgt_lb.std())  
 print('Standard Deviation of the weight of all other babies: ', others.totalwgt_lb.std())  
 print("Cohen's d: ", CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb))  
+```
