@@ -4,7 +4,8 @@ Using the variable _totalwgt_lb_, Cohen's _d_ was evaluated to be -0.089, and ca
 
 Code below:  
 ```python
-import nsfg  
+import nsfg
+import thinkstats2
 import numpy as np  
 import pandas as pd  
 import thinkplot  
