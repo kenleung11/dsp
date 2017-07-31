@@ -20,7 +20,7 @@ def CleanFemPreg(df):
     df.birthwgt_lb.replace(na_vals, np.nan, inplace=True)  
     df.birthwgt_oz.replace(na_vals, np.nan, inplace=True)  
      
-    df['totalwgt_lb'] = df.birthwgt_lb + df.birthwgt.oz / 16.0  
+    df['totalwgt_lb'] = df.birthwgt_lb + df.birthwgt_oz / 16.0  
     
 CleanFemPreg(df)  
 
