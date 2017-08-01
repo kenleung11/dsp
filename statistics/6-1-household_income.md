@@ -13,39 +13,6 @@ import numpy as np
 
 %matplotlib inline
 
-def RawMoment(xs, k):
-    return sum(x**k for x in xs) / len(xs)
-
-def Mean(xs):
-    return RawMoment(xs, 1)
-
-def CentralMoment(xs, k):
-    mean = RawMoment(xs, 1)
-    return sum((x - mean)**k for x in xs) / len(xs)
-
-def Var(xs):
-    return CentralMoment(xs, 2)
-
-def StandardizedMoment(xs, k):
-    var = CentralMoment(xs, 2)
-    std = np.sqrt(var)
-    return CentralMoment(xs, k) / std**k
-
-def Skewness(xs):
-    return StandardizedMoment(xs, 3)
-
-def Median(xs):
-    cdf = thinkstats2.Cdf(xs)
-    return cdf.Value(0.5)
-
-def PearsonMedianSkewness(xs):
-    median = Median(xs)
-    mean = RawMoment(xs, 1)
-    var = CentralMoment(xs, 2)
-    std = np.sqrt(var)
-    gp = 3 * (mean - median) / std
-    return gp
-
 df = hinc.ReadData()
 log_sample = hinc2.InterpolateSample(df, log_upper=6.0)
 
@@ -63,10 +30,10 @@ thinkplot.Config(xlabel='Household income ($)',
                  ylabel='CDF',
                  title = 'Household income')
 
-print('Mean: ', Mean(sample))
-print('Median: ', Median(sample))
-print('Sample skewness: ', Skewness(sample))
-print('Pearsons skewness: ', PearsonMedianSkewness(sample))
+print('Mean: ', thinkstats2.Mean(sample))
+print('Median: ', thinkstats2.Median(sample))
+print('Sample skewness: ', thinkstats2.Skewness(sample))
+print('Pearsons skewness: ', thinkstats2.PearsonMedianSkewness(sample))
 
-print('Fraction of households below mean: ', cdf.Prob(Mean(sample)))
+print('Fraction of households below mean: ', cdf.Prob(thinkstats2.Mean(sample)))
 ```
