@@ -68,6 +68,5 @@ print('Median: ', Median(sample))
 print('Sample skewness: ', Skewness(sample))
 print('Pearsons skewness: ', PearsonMedianSkewness(sample))
 
-print('Fraction of households below mean: ', 
-cdf.Prob(Mean(sample)))
+print('Fraction of households below mean: ', cdf.Prob(Mean(sample)))
 ```
