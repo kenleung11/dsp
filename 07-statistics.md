@@ -109,7 +109,7 @@ P(A|E) = 0.294
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+In short, frequentist statisticians believe that probability has to do with observed frequencies of things in a sample, while Bayesian statisticians believe that probability can be estimated using prior assumptions and views probability as degrees of belief in a proposition.
 
 ---
 
