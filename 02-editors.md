@@ -83,8 +83,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 I prefer to use nano because it is easy to use.
 
---
-
 ### Q3. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
