@@ -77,11 +77,15 @@ print("This file was created by Reshama")
 
 Upload these 3 files to the [`editors`](editors/) folder.  
 
+---
+
 ### Q2. Terminal Editor
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
 I prefer to use nano because it is easy to use.
+
+---
 
 ### Q3. Graphical Editor
 
