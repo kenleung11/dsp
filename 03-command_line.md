@@ -39,13 +39,17 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What do the following commands do:  
 `ls`  
-`ls -a`  lists all contents of a directory, including hidden files and directories
-`ls -l`  lists all contents in long format
-`ls -lh`  
+`ls -a`  
+`ls -l` 
+`ls -lh`  
 `ls -lah`  
-`ls -t`  orders files and directories by the time they were last modified
-`ls -Glp`  
+`ls -t`  
+`ls -Glp`  
 
+* ls -a: lists all contents of a directory, including hidden files and directories
+* ls -l: lists all contents in long format
+
+* ls -t: orders files and directories by the time they were last modified
 ---
 
 ### Q3.  More List Files in Unix  
