@@ -50,6 +50,8 @@ Did you install Python 2 or 3? Why?
 
 I have installed both Python 2 and 3. I first learned python while completing a MOOC for python beginners, and much of the material was done in Python 2. I have since installed Python 3 to complete the Metis Admission take-home coding challenges.
 
+---
+
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
