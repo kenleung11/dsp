@@ -89,6 +89,6 @@ I prefer to use nano because it is easy to use.
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I prefer using Sublime text for it ease of use. Sublime allows for building multiple build systems with different versions of python and has easy to install interface and syntax themes. Some useful keyboard shortcuts include jumping to specific line number by pressing **command p** and typing in **:line number**. Another useful shortcut is to go to the end of the bracket by pressing **control m**. You can also swap lines with each other by pressing **control+command up or down**. Another useful shortcut is to write multiple lines by pressing **command** and clicking on the lines you want to write.
 
  
