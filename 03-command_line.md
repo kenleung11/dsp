@@ -50,6 +50,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * creating keyboard shortcuts, or aliases, for commonly used commands: $ alias
 * outputting a history of commands that were entered in the current session: $ history
 * returning a list of the environment variables for the current user: $ env
+* opening manual (or man) pages for any commands: $ man command
 
 ---
 
