@@ -21,7 +21,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 * show current working directory path: $ pwd (print working directory)
 * changing the working directory: $ cd directory name
-* moving up one directory: $ ..
+* moving up one directory: $ cd ..
 * creating a directory: $ mkdir directory name (make directory)
 * deleting a directory: $ rm -r directory name (remove -recursive)
 * creating a file using `touch` command: $ touch filename
